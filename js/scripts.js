@@ -6,7 +6,7 @@ function hideResults() {
   document.getElementById("ruby").style.display = "none";
 }
 
-window.onload = function(){
+window.onload = function() {
   hideResults();
   document.getElementById("form").reset();
 
@@ -21,14 +21,17 @@ window.onload = function(){
   let toonValue = document.querySelector("input[name=toon]:checked").value;
   let viewValue = document.querySelector("input[name=view]:checked").value;
   let dudeValue = document.querySelector("input[name=dude]:checked").value;
-  let peopleValue = document.querySelector("input[name=people]:checked");
+  let peopleValue = document.querySelector("input[name=people]:checked").value;
   let ocdValue = document.querySelector("input[name=ocd]:checked").value;
 
-  if (endValue === "option2" && eyeValue === "option2" && functionValue === "option2" && viewValue === "option1" && peopleValue === "option2") {
-    document.getElementById("python").style.display = "block;";
+  if (endValue === "option2" && eyeValue === "option2" && whatValue === "option2" && viewValue === "option1" && peopleValue === "option2") {
+    document.getElementById("python").style.display = "block";
 
-  } else if (endValue === "option1" && eyeValue === "option1" && functionValue === "option1" && viewValue === "option2" && peopleValue === "option1") {
-    document.getElementById("javascript").style.display = "block;";
+  } else if (endValue === "option1" && eyeValue === "option1" && whatValue === "option1" && viewValue === "option2" && peopleValue === "option1") {
+    document.getElementById("javascript").style.display = "block";
+
+  } else {
+    document.getElementById("ruby").style.display = "block";
     }
   };
 };
