@@ -9,4 +9,9 @@ function hideResults() {
 window.onload = function(){
   hideResults();
   document.getElementById("form").reset();
+
+  document.querySelector("form").onsubmit = function(event) {
+    hideResults();
+    event.preventDefault();
+  }
 }
