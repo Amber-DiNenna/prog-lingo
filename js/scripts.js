@@ -24,10 +24,10 @@ window.onload = function() {
   let peopleValue = document.querySelector("input[name=people]:checked").value;
   let ocdValue = document.querySelector("input[name=ocd]:checked").value;
 
-  if (endValue === "option2" && eyeValue === "option2" && whatValue === "option2" && viewValue === "option1" && peopleValue === "option2") {
+  if (endValue === "option2" && eyeValue === "option2" && fluffValue === "option2" && whatValue === "option2" && toonValue === "option1" && viewValue === "option1" && dudeValue === "option2" && peopleValue === "option2" && ocdValue === "option1") {
     document.getElementById("python").style.display = "block";
 
-  } else if (endValue === "option1" && eyeValue === "option1" && whatValue === "option1" && viewValue === "option2" && peopleValue === "option1") {
+  } else if (endValue === "option1" && eyeValue === "option1" && fluffValue === "option1" && whatValue === "option1" && toonValue === "option2" && viewValue === "option2" && dudeValue === "option1" && peopleValue === "option1" && ocdValue === "option2") {
     document.getElementById("javascript").style.display = "block";
 
   } else {
