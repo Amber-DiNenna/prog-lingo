@@ -5,3 +5,8 @@ function hideResults() {
   document.getElementById("javascript").style.display = "none";
   document.getElementById("ruby").style.display = "none";
 }
+
+window.onload = function(){
+  hideResults();
+  document.getElementById("form").reset();
+}
