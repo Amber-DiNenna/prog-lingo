@@ -23,13 +23,6 @@ legend {
   max-width: 300px;
 }
 
-img {
-  box-sizing: border-box;
-  height: 200px;
-  width: 300px;
-  border: 2px solid black;
-  align-items: center;
-}
 
 .top {
   display: grid;
@@ -74,6 +67,6 @@ img {
   margin-left: 40px;
 }
 
-.button {
-  padding-right: 50px;
+#pwnd {
+  color: red;
 }
