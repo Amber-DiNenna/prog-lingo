@@ -2,32 +2,35 @@ body {
   background-color: black;
   color: white;
   font-family:  monospace;
+  display: block;
+
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
+form {
+  display: grid;
+  max-width: fit-content;
+  box-sizing: border-box;
 }
 
 button {
-  font-family: monospace;
-  background-color: white;
+  padding: 1em;
+  border: 1em black solid;
+}
+.button {
+  display: flex;
+  justify-content:center;
 }
 
-fieldset {
+.form-group {
   border: none;
+  min-width: auto;
 }
 
 legend {
   font-weight: bold;
-  max-width: 300px;
 }
 
-
 .top {
-  display: grid;
-  align-items: center;
-  align-content: center;
   text-align: center;
 }
 
@@ -39,32 +42,40 @@ legend {
   padding: 10px;
 }
 
+#row1 {
+  margin-left: 20px;
+}
+
 #row2 {
   margin-left: 40px;
 }
 
 #row3 {
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 #row4 {
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 #row5 {
-  margin-left: 150px;
+  margin-left: 80px;
 }
 
 #row6 {
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 #row7 {
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 #row8 {
   margin-left: 40px;
+}
+
+#row9 {
+  margin-left: 20px;
 }
 
 #pwnd {
