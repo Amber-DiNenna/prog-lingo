@@ -4,6 +4,7 @@ function hideResults() {
   document.getElementById("python").style.display = "none";
   document.getElementById("javascript").style.display = "none";
   document.getElementById("ruby").style.display = "none";
+  document.getElementById("n00b-error").style.display = "none";
 }
 
 window.onload = function() {
@@ -29,6 +30,17 @@ window.onload = function() {
 
   } else if (endValue === "option1" && eyeValue === "option1" && fluffValue === "option1" && whatValue === "option1" && toonValue === "option2" && viewValue === "option2" && dudeValue === "option1" && peopleValue === "option1" && ocdValue === "option2") {
     document.getElementById("javascript").style.display = "block";
+// it could be cool to have the other nick burns pic come up with the results
+
+
+  /* neither of these work to render the n00b-error
+
+  } else if (endValue === "null" || eyeValue === "null" || fluffValue === "null" || whatValue === "null" || toonValue === "null" || viewValue === "null" || dudeValue === "null" || peopleValue === "null" || ocdValue === "null") {
+    document.getElementById("n00b-error").style.display = "block";
+
+  } else if (!endValue || !eyeValue || !fluffValue || !whatValue || !toonValue || !viewValue || !dudeValue || !peopleValue || !ocdValue ) {
+  document.getElementById("n00b-error").style.display = "block";
+  */
 
   } else {
     document.getElementById("ruby").style.display = "block";
