@@ -3,3 +3,53 @@ body {
   color: white;
   font-family:  monospace;
 }
+
+button {
+  font-family: monospace;
+  background-color: white;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  max-width: 250px;
+}
+
+.row {
+  padding: 10px;
+}
+
+.col-sm-10 {
+  padding: 10px;
+}
+
+#row2 {
+  margin-left: 20px;
+}
+
+#row3 {
+  margin-left: 40px;
+}
+
+#row4 {
+  margin-left: 60px;
+}
+
+#row5 {
+  margin-left: 80px;
+}
+
+#row6 {
+  margin-left: 60px;
+}
+
+#row7 {
+  margin-left: 40px;
+}
+
+#row8 {
+  margin-left: 20px;
+}
