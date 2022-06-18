@@ -4,6 +4,11 @@ body {
   font-family:  monospace;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 button {
   font-family: monospace;
   background-color: white;
@@ -15,7 +20,22 @@ fieldset {
 
 legend {
   font-weight: bold;
-  max-width: 250px;
+  max-width: 300px;
+}
+
+img {
+  box-sizing: border-box;
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.top {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 .row {
@@ -27,29 +47,33 @@ legend {
 }
 
 #row2 {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 #row3 {
-  margin-left: 40px;
-}
-
-#row4 {
-  margin-left: 60px;
-}
-
-#row5 {
   margin-left: 80px;
 }
 
+#row4 {
+  margin-left: 120px;
+}
+
+#row5 {
+  margin-left: 150px;
+}
+
 #row6 {
-  margin-left: 60px;
+  margin-left: 120px;
 }
 
 #row7 {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 #row8 {
-  margin-left: 20px;
+  margin-left: 40px;
+}
+
+.button {
+  padding-right: 50px;
 }
