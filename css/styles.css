@@ -1,0 +1,27 @@
+body {
+  background-color: darkcyan;
+  font-family: fantasy;
+
+}
+
+fieldset {
+  max-width: 250px;
+}
+legend {
+  font-weight: bolder;
+}
+
+.form {
+  height: fit-content;
+  font-size: 50px;
+}
+
+.row {
+  height: auto;
+  width: fit-content;
+  padding: 10px;
+}
+
+.col-sm-10 {
+  padding: 10px;
+}
