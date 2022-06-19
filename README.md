@@ -8,25 +8,24 @@
 
 * _HTML_
 * _CSS_
-* _JavaScript
+* _JavaScript_
 * _Web APIs_
 
 ## Description
 
-_Gathers input from users in order to determine which programming language would best suit their interests and/or future goals. Can be accessed at:  _
+_Gathers input from users in order to determine which programming language would best suit their interests and/or future goals. Can be accessed at:  amber-dinenna.github.io/prog-lingo_
 
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop._
 * _Navigate to the top level of the directory._
 * _Open index.html in your browser._
-* _ _
+
 
 ## Known Bugs
 
-* _Can't get error message to render if user fails to select choice for each question, but it doesn't move forward with a result so it still kind of works. However, if I remove the error message div, the code breaks._
-* _ _
-* _ _
+* _Can't get error message to render if user fails to select choice for each question, but it doesn't move forward with a result so it still kind of works. However, if I remove the error message div, the code breaks and all hidden results can be viewed._
+
 
 ## License
 
