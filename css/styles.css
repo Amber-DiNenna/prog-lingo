@@ -2,6 +2,7 @@ body {
   background-color: black;
   color: white;
   font-family:  monospace;
+  font-size: large;
   display: grid;
   justify-items: center;
 }
@@ -11,13 +12,26 @@ form {
   justify-items: center;
 }
 
+h1 {
+  color: yellow;
+  font-size: 75px;
+  margin:auto;
+}
+
+legend {
+  font-weight: bold;
+  color:hotpink;
+  text-align: center;
+}
+
 button {
   padding: 1em;
   border: 1em black solid;
 }
 
-legend {
-  font-weight: bold;
+img {
+  padding: 10px;
+  width: 50%;
 }
 
 .form-group {
@@ -26,7 +40,7 @@ legend {
 
 .top, .results {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .row, .results {
@@ -47,15 +61,11 @@ legend {
 #scroll {
   color:greenyellow;
 }
+
 #pwnd {
   color: red;
 }
 
-h1 {
-  color: yellow;
-  font-size: 75px;
-}
-
-p {
-  padding: 10px;
+#oh {
+  color: orangered;
 }
