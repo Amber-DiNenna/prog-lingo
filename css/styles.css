@@ -2,80 +2,45 @@ body {
   background-color: black;
   color: white;
   font-family:  monospace;
-  display: block;
-
+  display: grid;
+  justify-items: center;
 }
 
 form {
   display: grid;
-  max-width: fit-content;
-  box-sizing: border-box;
+  justify-items: center;
 }
 
 button {
   padding: 1em;
   border: 1em black solid;
 }
-.button {
-  display: flex;
-  justify-content:center;
-}
-
-.form-group {
-  border: none;
-  min-width: auto;
-}
 
 legend {
   font-weight: bold;
 }
 
-.top {
+.form-group {
+  border: none;
+}
+
+.top, .results {
   text-align: center;
 }
 
-.row {
+.row, .results {
   padding: 10px;
+  display: grid;
+  justify-items: center;
 }
 
 .col-sm-10 {
   padding: 10px;
 }
 
-#row1 {
-  margin-left: 20px;
-}
-
-#row2 {
-  margin-left: 40px;
-}
-
-#row3 {
-  margin-left: 60px;
-}
-
-#row4 {
-  margin-left: 80px;
-}
-
-#row5 {
-  margin-left: 80px;
-}
-
-#row6 {
-  margin-left: 80px;
-}
-
-#row7 {
-  margin-left: 60px;
-}
-
-#row8 {
-  margin-left: 40px;
-}
-
-#row9 {
-  margin-left: 20px;
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 #pwnd {

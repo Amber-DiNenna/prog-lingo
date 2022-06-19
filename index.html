@@ -6,172 +6,171 @@
   <title>So You Think You Should Code?</title>
 </head>
 <body>
+  <div class="top">
+    <h1>So You Think You Should Code?</h1>
+    <h2>Oh, you're into programming? Name 3 languages!</h2>
+    <p>OR, if you're a <strong>n00b</strong>, take my definitive survey to prove you're not a poser!</p>
+    <p>All you have to do is answer 5 simple questions and I'll tell YOU just what kind of nerd you are and which programming language would best serve your nerd needs.</p>
+    <p><img src="img/burns.jpg" alt="An image of Nick Burns burning you."></p>
+    <h2 id="pwnd">Answer EVERY question or prepare to be PWND.</h2>
+  </div>
 
-    <div class="top">
-      <h1>So You Think You Should Code?</h1>
-      <h2>Oh, you're into programming? Name 3 languages!</h2>
-      <p>OR, if you're a <strong>n00b</strong>, take my definitive survey to prove you're not a poser!</p>
-      <p>All you have to do is answer 5 simple questions and I'll tell YOU just what kind of nerd you are and which programming language would best serve your nerd needs.</p>
-      <p><img src="img/burns.jpg" alt="An image of Nick Burns burning you."></p>
-      <h2 id="pwnd">Answer EVERY question or prepare to be PWND.</h2>
+  <form id="form">
+    <fieldset class="form-group">
+    <div class="row" id="row1">
+      <legend class="col-form-label col-sm-2 pt-0">1. Client side or server side?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="end" id="end1" value="option1">
+          <label class="form-check-label" for="end1">Client side</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="end" id="end2" value="option2">
+          <label class="form-check-label" for="end2">Server side</label>
+        </div>
+      </div>
     </div>
 
-    <form id="form">
-      <fieldset class="form-group">
-      <div class="row" id="row1">
-        <legend class="col-form-label col-sm-2 pt-0">1. Client side or server side?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="end" id="end1" value="option1">
-            <label class="form-check-label" for="end1">Client side</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="end" id="end2" value="option2">
-            <label class="form-check-label" for="end2">Server side</label>
-          </div>
+    <div class="row" id="row2">
+      <legend class="col-form-label col-sm-2 pt-0">2. Art or math?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="eye" id="eye1" value="option1">
+          <label class="form-check-label" for="eye1">Art</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="eye" id="eye2" value="option2">
+          <label class="form-check-label" for="eye2">Math</label>
         </div>
       </div>
-
-      <div class="row" id="row2">
-        <legend class="col-form-label col-sm-2 pt-0">2. Art or math?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="eye" id="eye1" value="option1">
-            <label class="form-check-label" for="eye1">Art</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="eye" id="eye2" value="option2">
-            <label class="form-check-label" for="eye2">Math</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row3">
-        <legend class="col-form-label col-sm-2 pt-0">3. Puppies or kitties?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="fluff" id="fluff1" value="option1">
-            <label class="form-check-label" for="fluff1">Puppies</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="fluff" id="fluff2" value="option2">
-            <label class="form-check-label" for="fluff2">Kitties</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row4">
-        <legend class="col-form-label col-sm-2 pt-0">4. Buttons or data?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="what" id="what1" value="option1">
-            <label class="form-check-label" for="what1">Buttons</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="what" id="what2" value="option2">
-            <label class="form-check-label" for="what2">Data</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row5">
-        <legend class="col-form-label col-sm-2 pt-0">5. Rick or Morty?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="toon" id="toon1" value="option1">
-            <label class="form-check-label" for="toon1">Rick</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="toon" id="toon2" value="option2">
-            <label class="form-check-label" for="toon2">Morty</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row6">
-        <legend class="col-form-label col-sm-2 pt-0">6. Black and white or grey?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="view" id="view1" value="option1">
-            <label class="form-check-label" for="view1">Black and white</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="view" id="view2" value="option2">
-            <label class="form-check-label" for="view2">Grey</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row7">
-        <legend class="col-form-label col-sm-2 pt-0">7. Iceman or Maverick?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="dude" id="dude1" value="option1">
-            <label class="form-check-label" for="dude1">Iceman</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="dude" id="dude2" value="option2">
-            <label class="form-check-label" for="dude2">Maverick</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row8">
-        <legend class="col-form-label col-sm-2 pt-0">8. Can you pretend to like people?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="people" id="people1" value="option1">
-            <label class="form-check-label" for="people1">Yes</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="people" id="people2" value="option2">
-            <label class="form-check-label" for="people2">No</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="row9">
-        <legend class="col-form-label col-sm-2 pt-0">9. Do you need this quiz to have an even number of questions?</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="ocd" id="ocd1" value="option1">
-            <label class="form-check-label" for="ocd1">What?</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="ocd" id="ocd2" value="option2">
-            <label class="form-check-label" for="ocd2">I hate you!</label>
-          </div>
-        </div>
-      </div>
-      <div class="button">
-        <button type="submit">Guide me, oh wise one!</button>
-        <button type="reset">Doh!</button>
-      </div>
-      </fieldset>
-    </form>
-
-    <div id="python">
-      <h1>Your language is: <span style="color: lime">PYTHON</span>!</h1>
-      <p>Say goodbye to the sun and prepare to ride the snake in and around your mom's basement!</p>
-      <img src="img/doubleburns.jpg" alt="An image of Nick Burns pwning you.">
     </div>
 
-    <div id="javascript">
-      <h1>Your language is: <span style="color:aqua">JAVASCRIPT</span>!</h1>
-      <p>You wear nice glasses!</p>
-      <img src="img/doubleburns.jpg" alt="An image of Nick Burns pwning you.">
+    <div class="row" id="row3">
+      <legend class="col-form-label col-sm-2 pt-0">3. Puppies or kitties?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="fluff" id="fluff1" value="option1">
+          <label class="form-check-label" for="fluff1">Puppies</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="fluff" id="fluff2" value="option2">
+          <label class="form-check-label" for="fluff2">Kitties</label>
+        </div>
+      </div>
     </div>
 
-    <div id="ruby">
-      <h1>Your language is: <span style="color:crimson">RUBY</span>!</h1>
-      <p>You still have one foot in the door of society, good for you!</p>
-      <img src="img/doubleburns.jpg" alt="An image of Nick Burns pwning you.">
+    <div class="row" id="row4">
+      <legend class="col-form-label col-sm-2 pt-0">4. Buttons or data?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="what" id="what1" value="option1">
+          <label class="form-check-label" for="what1">Buttons</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="what" id="what2" value="option2">
+          <label class="form-check-label" for="what2">Data</label>
+        </div>
+      </div>
     </div>
 
-    <div id="n00b-error">
-      <h1>Silly n00b</h1>
-      <p>You MUST answer EVERY question or YOU SHALL NOT PASS!!!</p>
+    <div class="row" id="row5">
+      <legend class="col-form-label col-sm-2 pt-0">5. Rick or Morty?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="toon" id="toon1" value="option1">
+          <label class="form-check-label" for="toon1">Rick</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="toon" id="toon2" value="option2">
+          <label class="form-check-label" for="toon2">Morty</label>
+        </div>
+      </div>
     </div>
 
+    <div class="row" id="row6">
+      <legend class="col-form-label col-sm-2 pt-0">6. Black and white or grey?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="view" id="view1" value="option1">
+          <label class="form-check-label" for="view1">Black and white</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="view" id="view2" value="option2">
+          <label class="form-check-label" for="view2">Grey</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row7">
+      <legend class="col-form-label col-sm-2 pt-0">7. Iceman or Maverick?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="dude" id="dude1" value="option1">
+          <label class="form-check-label" for="dude1">Iceman</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="dude" id="dude2" value="option2">
+          <label class="form-check-label" for="dude2">Maverick</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row8">
+      <legend class="col-form-label col-sm-2 pt-0">8. Can you pretend to like people?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="people" id="people1" value="option1">
+          <label class="form-check-label" for="people1">Yes</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="people" id="people2" value="option2">
+          <label class="form-check-label" for="people2">No</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row9">
+      <legend class="col-form-label col-sm-2 pt-0">9. Do you need this quiz to have an even number of questions?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="ocd" id="ocd1" value="option1">
+          <label class="form-check-label" for="ocd1">What?</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="ocd" id="ocd2" value="option2">
+          <label class="form-check-label" for="ocd2">I hate you!</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="button">
+      <button type="submit">Guide me, oh wise one!</button>
+      <button type="reset">Doh!</button>
+    </div>
+    </fieldset>
+  </form>
+
+  <div class="results" id="python">
+    <h1>Your language is: <span style="color: lime">PYTHON</span>!</h1>
+    <p>Say goodbye to the sun and prepare to ride the snake in and around your mom's basement!</p>
+    <img src="img/doubleburns.jpg" alt="An image of Nick Burns burning you again.">
+  </div>
+
+  <div class="results" id="javascript">
+    <h1>Your language is: <span style="color:aqua">JAVASCRIPT</span>!</h1>
+    <p>You wear nice glasses!</p>
+    <img src="img/doubleburns.jpg" alt="An image of Nick Burns burning you again.">
+  </div>
+
+  <div class="results" id="ruby">
+    <h1>Your language is: <span style="color:crimson">RUBY</span>!</h1>
+    <p>You still have one foot in the door of society, good for you!</p>
+    <img src="img/doubleburns.jpg" alt="An image of Nick Burns burning you again.">
+  </div>
+
+  <div id="n00b-error">
+    <h1>Silly n00b</h1>
+    <p>You MUST answer EVERY question or YOU SHALL NOT PASS!!!</p>
+  </div>
 </body>
 </html>
