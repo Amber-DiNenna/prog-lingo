@@ -44,6 +44,18 @@ legend {
   justify-content: center;
 }
 
+#scroll {
+  color:greenyellow;
+}
 #pwnd {
   color: red;
+}
+
+h1 {
+  color: yellow;
+  font-size: 75px;
+}
+
+p {
+  padding: 10px;
 }
