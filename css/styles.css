@@ -26,6 +26,7 @@ legend {
 
 .top, .results {
   text-align: center;
+  padding: 10px;
 }
 
 .row, .results {

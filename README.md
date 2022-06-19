@@ -24,7 +24,7 @@ _Gathers input from users in order to determine which programming language would
 
 ## Known Bugs
 
-* _ _
+* _Can't get error message to render if user fails to select choice for each question, but it doesn't move forward with a result so it still kind of works. However, if I remove the error message div, the code breaks._
 * _ _
 * _ _
 
